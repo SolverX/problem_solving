@@ -22,5 +22,24 @@ typedef vector<ii> vii;
 
 int main(){
     freopen("in.txt","rt",stdin);
+    int T;
+    cin>>T;
+    int A[1001];
+    for(int i=0;i<T;i++){
+        cin>>A[i];
+        // minVal=min(minVal,A[i]);
+    }
+    sort(A,A+T);
+    int pos=0;
+    while(A[pos]==0) pos++;
+    while(pos!=T){
+        cout<<(T-pos)<<endl;
+        int val=A[pos];
+        do{
+            pos++;
+        }while(val==A[pos]);
+
+    }
+    // cout<<total<<endl;
     return 0;
 }

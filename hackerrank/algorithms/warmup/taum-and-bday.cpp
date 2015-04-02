@@ -22,5 +22,22 @@ typedef vector<ii> vii;
 
 int main(){
     freopen("in.txt","rt",stdin);
+    int T;
+    cin>>T;
+    while(T--){
+        ull A,B;
+        cin>>A>>B;
+        ull X,Y,Z;
+        cin>>X>>Y>>Z;
+        ull sum=0;
+        if( (X+Z)<Y){
+            sum = (X*A) + ((B)*(X+Z));
+        }else if((Y+Z)<X){
+            sum = (Y*B) + ((A)*(Y+Z));
+        }else{
+            sum = (X*A) + (Y*B);
+        }
+        cout<<sum<<endl;
+    }
     return 0;
 }

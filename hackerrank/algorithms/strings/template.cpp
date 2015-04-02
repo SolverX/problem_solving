@@ -9,6 +9,7 @@
 #include <cmath>
 #include <cctype>
 #include <cstdlib>
+#include <bitset>
 using namespace std;
 #define VISITED 2
 #define EXPLORED 1
@@ -21,6 +22,6 @@ typedef pair<int,int> ii;
 typedef vector<ii> vii;
 
 int main(){
-    freopen("in.txt","rt",stdin);
-    return 0;
+	freopen("in.txt","rt",stdin);
+	return 0;
 }
