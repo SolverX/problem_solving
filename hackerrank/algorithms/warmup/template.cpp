@@ -13,6 +13,10 @@ using namespace std;
 #define VISITED 2
 #define EXPLORED 1
 #define UN_VISISTED 0
+#define len(x) sizeof(x)
+#define null NULL
+#define nil NULL
+
 
 typedef unsigned long long ull;
 typedef unsigned long ul;

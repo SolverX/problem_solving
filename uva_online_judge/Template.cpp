@@ -24,5 +24,5 @@ int main(){
 	if(FILE_INPUT)
 		freopen("in.txt","r",stdin);
 
-	return 0
+	return 0;
 }
